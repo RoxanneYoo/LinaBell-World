@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('../image/IMG840.jpg');
+    background-repeat: no-repeat;  
+    background-position: center;   
+    background-size: cover;        
+}
+
+/* common style */
+.container {
+    margin: 0 80px;
+    overflow: hidden;
+}
+
+.container2{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* nav-wrap */
+.nav-wrap {
+    flex: 1;
+}
+
+.nav {
+    justify-content: flex-end;
+}
+
+/* flexbox */
+.flexbox {
+    display: flex;
+}
+
+/* title */
+.title h2 {
+    font-size: 35px;
+    color: #b186ca;
+    font-family:"Arial Black";
+}
+
+.title h3 {
+    font-size: 18px;
+    color: #b186ca;
+    font-family:"Arial Black";
+}
+
+.title h4 {
+    font-size: 45px;
+    color: #ff8fab;
+    font-family:"Arial Black";
+}
+
+.title h5 {
+    font-size: 45px;
+    color: #8cc5fa;
+    font-family:"Arial Black";
+}
+
+.title h6 {
+    font-size: 18px;
+    color: #8cc5fa;
+    font-family:"Arial Black";
+}
+
+/* header  */
+#header {
+    width: 100%;
+    background-color: #ffe5ec;
+}
+
+.top-inner {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-logo {
+    width: 350px;
+    padding: 10px 0;
+}
+
+.top-logo h2{
+    font-size: 36px;
+    font-family: 'Times New Roman', sans-serif;
+    color: #fb6f92;
+}
+
+.top-logo img {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    border-radius: 50%;
+    vertical-align: middle;
+    object-fit: cover;
+}
+
+.top-logo img:hover{
+    transform: scale(1.2);
+}
+
+.top-logo span{
+    vertical-align: middle;
+}
+
+
+/* Banner Start  */
+.banner-wrap {
+    position: relative;
+    height: 560px;
+    overflow: hidden;
+    text-align: center;
+    background: url(../image/IMG851.jpg) no-repeat center/cover;
+}
+
+.banner-text{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    color: #fff;
+    text-shadow: 0 0 10px #000;
+}
+
+.banner-text h1{
+    font-size: 80px;
+}
+
+/* End Banner  */
+
+#footer{
+    padding: 40px 0;
+    font-size: 14px;
+    text-align: center;
+    line-height: 25px;
+    background-color: #ffe5ec;
+}
+

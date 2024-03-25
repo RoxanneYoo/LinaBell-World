@@ -1,0 +1,126 @@
+.sec-1{
+    padding: 80px 30px;
+}
+
+.sec-1-left{
+    width: 60%;
+    color:#ba82d8
+}
+
+.sec-1-text{
+    flex: 1;
+    line-height: 22px;
+    text-align: justify;
+    padding-right: 80px;
+    font-family:"Arial";
+    color:#a962d0
+}  *LinaBell Introduction*
+
+.sec-1-right{
+    flex: 3;
+}
+
+.sec-1-img{
+    width: 100%;
+    height: 322px;
+    border: 2px solid #edafb8;
+}
+
+.sec-1-img:hover{
+    transform: scale(1.2);
+}
+
+.sec-1-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.sec-2-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sec-2-text{
+    flex: 1;
+    line-height: 22px;
+    text-align: justify;
+    padding-right: 80px;
+    font-family:"Arial";
+    color:#f47b99
+}  *Duffy and friends*
+
+.sec-2{
+    padding: 80px 30px;
+}
+
+.sec-2-img {
+    width: 50%;
+    height: 480px;
+    border: 2px solid #edafb8;
+    transition: all .25s ease;
+}
+
+.sec-2-img:hover{
+    transform: scale(1.2);
+}
+
+.sec-2-img:nth-child(2) {
+    margin-top: 25px;
+    margin-left: -25px;
+}
+
+.sec-2-img:nth-child(3) {
+    margin-top: 50px;
+    margin-left: -25px;
+}
+
+.sec-2-left{
+    width: 55%;
+    padding-left: 100px;
+    box-sizing: border-box;
+}
+
+.sec-2-left .title{
+    padding-top: 45px;
+    font-family:"Arial Black";
+    color:#ff87ab
+}
+
+.sec-3{
+    margin-bottom: 60px;
+}
+
+.sec-3-inner{
+    align-items: center;
+}
+
+.sec-3-img-wrap {
+    width: 50%;
+    flex-wrap: wrap;
+    border: 2px solid #edafb8;
+}
+
+.sec-3-img-wrap img{
+    width: 50%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.sec-3-img-wrap:hover{
+    transform: scale(1.2);
+}
+
+.sec-3-inner {
+    padding: 60px 0;
+}
+
+
+.sec-3-text{
+    flex: 1;
+    line-height: 22px;
+    text-align: justify;
+    padding-right: 80px;
+    font-family:"Arial";
+    color:#4caaf1;
+}  
